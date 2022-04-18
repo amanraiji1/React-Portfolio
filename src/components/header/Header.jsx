@@ -3,6 +3,7 @@ import CTA from "./CTA";
 import "./header.css";
 import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
+import TypeWriterEffect from "./TypeWriterEffect";
 
 const Header = () => {
   return (
@@ -10,7 +11,8 @@ const Header = () => {
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Aman Rai</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+
+        <TypeWriterEffect />
         <CTA />
         <HeaderSocials />
 
