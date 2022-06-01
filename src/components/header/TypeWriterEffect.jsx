@@ -7,7 +7,7 @@ const TypeWriterEffect = () => {
       <h5 style={{ fontSize: "1.5rem" }}>
         <span style={{ color: "var(--color-primary)", fontWeight: "bold" }}>
           <Typewriter
-            words={["Fullstack Developer", "Programmer", "Student", "Learner!"]}
+            words={["Fullstack Developer", "Programmer", "Student", "Learner"]}
             loop="true"
             cursor
             cursorStyle="_"

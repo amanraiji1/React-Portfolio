@@ -16,16 +16,10 @@ const Footer = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experiences">Experience</a>
-        </li>
-        <li>
-          <a href="#services">Service</a>
+          <a href="#experiences">Skills</a>
         </li>
         <li>
           <a href="#portfolio">Projects</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -42,7 +36,7 @@ const Footer = () => {
         <a href="https://www.instagram.com/amanraiji18/" target="_blank">
           <BsInstagram />
         </a>
-        <a href="https://www.instagram.com/amanraiji18/" target="_blank">
+        <a href="https://twitter.com/AmanRai09792754" target="_blank">
           <BsTwitter />
         </a>
       </div>

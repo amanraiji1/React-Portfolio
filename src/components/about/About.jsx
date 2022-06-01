@@ -1,8 +1,8 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about.jpg";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+import { GoHome } from "react-icons/go";
+import { IoMdSchool } from "react-icons/io";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const about = () => {
@@ -21,15 +21,15 @@ const about = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
-              <FaAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>3+ years Working</small>
+              <GoHome className="about_icon" />
+              <h5>Panipat</h5>
+              <small>Haryana</small>
             </article>
 
             <article className="about_card">
-              <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <IoMdSchool className="about_icon" />
+              <h5>GJUS&T</h5>
+              <small>Hisar</small>
             </article>
 
             <article className="about_card">
@@ -40,10 +40,10 @@ const about = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            I am an ambitious and hardworking engineering student, currently
+            pursuing B.Tech in Information Technology from Guru Jambheshwar
+            University of Science and Technology. I have an excellent problem
+            solving skills.
           </p>
 
           <a href="#contact" className="btn btn-primary">

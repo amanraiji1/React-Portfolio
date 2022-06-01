@@ -1,62 +1,61 @@
 import React from "react";
-import "./portfolio.css";
+import "./project.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.jpg";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG6 from "../../assets/portfolio6.png";
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualisation",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/18038398-R-letter-logo-R-logo-Logo-designer",
+    image: IMG6,
+    title: "Portfolio",
+    github: "https://github.com/amanraiji1/Weather-App",
+    demo: "https://weather-app-ejs-node.herokuapp.com/",
   },
   {
     id: 2,
     image: IMG2,
-    title: " Financial Visualisation",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/18038398-R-letter-logo-R-logo-Logo-designer",
+    title: "Queen Visualizer",
+    github: "https://github.com/amanraiji1/Queen-Visualizer",
+    demo: "https://amanraiji1.github.io/Queen-Visualizer/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Currency Dashboard",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/18038398-R-letter-logo-R-logo-Logo-designer",
+    title: "Simon Game",
+    github: "https://github.com/amanraiji1/Simon-Game",
+    demo: "https://amanraiji1.github.io/Simon-Game/",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Crypto Visualisation",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/18038398-R-letter-logo-R-logo-Logo-designer",
+    title: "Typing Game",
+    github: "https://github.com/amanraiji1/Typing-Game",
+    demo: "https://amanraiji1.github.io/Typing-Game/",
   },
   {
     id: 5,
-    image: IMG5,
-    title: "Crypto Financial Visualisation",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/18038398-R-letter-logo-R-logo-Logo-designer",
+    image: IMG1,
+    title: "Music Player",
+    github: "https://github.com/amanraiji1/Music-player",
+    demo: "https://amanraiji1.github.io/Typing-Game/",
   },
   {
     id: 6,
-    image: IMG6,
-    title: "Crypto Currency Dashboard",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/18038398-R-letter-logo-R-logo-Logo-designer",
+    image: IMG1,
+    title: "Weather App",
+    github: "https://github.com/amanraiji1/Weather-App",
+    demo: "https://weather-app-ejs-node.herokuapp.com/",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>My Recent</h5>
+      <h2>Projects</h2>
       <div className="container portfolio_container">
         {data.map(({ id, image, title, github, demo }) => {
           return (

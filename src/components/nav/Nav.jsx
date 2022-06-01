@@ -1,7 +1,7 @@
 import React from "react";
 import "./nav.css";
 import { AiOutlineHome, AiOutlineUser, AiOutlineBook } from "react-icons/ai";
-import { RiServiceLine } from "react-icons/ri";
+import { GoProject } from "react-icons/go";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react"; //for changing active in nav
 
@@ -32,11 +32,11 @@ const Nav = () => {
         <AiOutlineBook />
       </a>
       <a
-        href="#services"
+        href="#portfolio"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
-        <RiServiceLine />
+        <GoProject />
       </a>
       <a
         href="#contact"

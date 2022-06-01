@@ -16,24 +16,28 @@ import "swiper/css/pagination";
 
 const data = [
   {
+    id: 1,
     avatar: AVTR1,
     name: "Tina Snow",
     review:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi ratione, sed optio amet culpa, repellendus facere quibusdam magni soluta iusto corporis quam doloribus veritatis odit labore, nemo rem dicta?",
   },
   {
+    id: 2,
     avatar: AVTR2,
     name: "Tara Sutaria",
     review:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi ratione, sed optio amet culpa, repellendus facere quibusdam magni soluta iusto corporis quam doloribus veritatis odit labore, nemo rem dicta?",
   },
   {
+    id: 3,
     avatar: AVTR3,
     name: "Seo Yea Ji",
     review:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi ratione, sed optio amet culpa, repellendus facere quibusdam magni soluta iusto corporis quam doloribus veritatis odit labore, nemo rem dicta?",
   },
   {
+    id: 4,
     avatar: AVTR4,
     name: "Kim Tae Ri",
     review:
@@ -59,9 +63,9 @@ const Testimonial = () => {
           disableOnInteraction: false,
         }}
       >
-        {data.map(({ avatar, name, review }) => {
+        {data.map(({ id, avatar, name, review }) => {
           return (
-            <SwiperSlide className="testimonial">
+            <SwiperSlide key={id} className="testimonial">
               <div className="client_avatar">
                 <img src={avatar} alt="Client-Avatar" />
               </div>

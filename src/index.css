@@ -33,10 +33,20 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
+  background-color: #1e2a3e;
+  opacity: 0.8;
+  background-image: radial-gradient(circle at center center, #eff0f4, #1b1e62),
+    repeating-radial-gradient(
+      circle at center center,
+      #eff0f4,
+      #eff0f4,
+      20px,
+      transparent 100px,
+      transparent 100px
+    );
+  background-blend-mode: multiply;
 }
 
 /* ------------General Styles --------*/
