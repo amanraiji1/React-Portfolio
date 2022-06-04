@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about.png";
 import { GoHome } from "react-icons/go";
 import { IoMdSchool } from "react-icons/io";
-import { VscFolderLibrary } from "react-icons/vsc";
+import { MdComputer } from "react-icons/md";
 
 const about = () => {
   return (
@@ -33,9 +33,9 @@ const about = () => {
             </article>
 
             <article className="about_card">
-              <VscFolderLibrary className="about_icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <MdComputer className="about_icon" />
+              <h5>Programmer</h5>
+              <small>6★ Coder</small>
             </article>
           </div>
 

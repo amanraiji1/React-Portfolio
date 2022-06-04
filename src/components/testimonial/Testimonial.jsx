@@ -18,38 +18,34 @@ const data = [
   {
     id: 1,
     avatar: AVTR1,
-    name: "Tina Snow",
-    review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi ratione, sed optio amet culpa, repellendus facere quibusdam magni soluta iusto corporis quam doloribus veritatis odit labore, nemo rem dicta?",
+    name: "TCS CodeVita",
+    info: "Secured Global Rank of 247 out of 100000+ competitors",
   },
   {
     id: 2,
     avatar: AVTR2,
-    name: "Tara Sutaria",
-    review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi ratione, sed optio amet culpa, repellendus facere quibusdam magni soluta iusto corporis quam doloribus veritatis odit labore, nemo rem dicta?",
+    name: "GATE 2022",
+    info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi ratione, sed optio amet culpa, repellendus facere quibusdam magni soluta iusto corporis quam doloribus veritatis odit labore, nemo rem dicta?",
   },
   {
     id: 3,
     avatar: AVTR3,
-    name: "Seo Yea Ji",
-    review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi ratione, sed optio amet culpa, repellendus facere quibusdam magni soluta iusto corporis quam doloribus veritatis odit labore, nemo rem dicta?",
+    name: "Coding",
+    info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi ratione, sed optio amet culpa, repellendus facere quibusdam magni soluta iusto corporis quam doloribus veritatis odit labore, nemo rem dicta?",
   },
   {
     id: 4,
     avatar: AVTR4,
-    name: "Kim Tae Ri",
-    review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi ratione, sed optio amet culpa, repellendus facere quibusdam magni soluta iusto corporis quam doloribus veritatis odit labore, nemo rem dicta?",
+    name: "Semester Topper",
+    info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi ratione, sed optio amet culpa, repellendus facere quibusdam magni soluta iusto corporis quam doloribus veritatis odit labore, nemo rem dicta?",
   },
 ];
 
 const Testimonial = () => {
   return (
     <section id="testimonial">
-      <h5>Review from Clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Honors & Awards</h5>
+      <h2>Achievements</h2>
 
       <Swiper
         className="container testimonials_container"
@@ -63,14 +59,14 @@ const Testimonial = () => {
           disableOnInteraction: false,
         }}
       >
-        {data.map(({ id, avatar, name, review }) => {
+        {data.map(({ id, avatar, name, info }) => {
           return (
             <SwiperSlide key={id} className="testimonial">
               <div className="client_avatar">
                 <img src={avatar} alt="Client-Avatar" />
               </div>
               <h5 className="client_name">{name}</h5>
-              <small className="client_review">{review}</small>
+              <small className="client_review">{info}</small>
             </SwiperSlide>
           );
         })}
